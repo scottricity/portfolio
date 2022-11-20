@@ -1,0 +1,52 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "obj2gltf": "^3.1.4"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "@mui/material": "^5.10.14",
+    "@mui/system": "^5.10.14",
+    "@mui/styled-engine-sc": "^5.10.14",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "styled-components": "^5.3.6",
+    "@fontsource/roboto": "^4.5.8",
+    "@mui/icons-material": "^5.10.14",
+    "path": "^0.12.7",
+    "snspup": "^1.0.1",
+    "got": "^12.5.3",
+    "moment": "^2.29.4",
+    "three": "^0.146.0",
+    "@types/three": "^0.146.0",
+    "@react-three/fiber": "^8.9.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
